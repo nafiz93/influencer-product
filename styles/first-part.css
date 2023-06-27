@@ -1,0 +1,216 @@
+
+/*-----------------------
+  set background colors
+  ----------------------*/
+  body{
+    background: #AAAAAA;
+  }
+
+  .screen{
+    background: #FFFFFF;
+    width: 1300px;
+    height: 2900px;
+    margin: 0 auto;
+  }
+
+/*-------------
+   section one
+ --------------*/
+ .first-part{
+     display: flex;
+     margin-bottom: 100px;
+ }
+ .header{
+     width: 55%;
+     margin-left: 120px;
+ }
+ .header-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+ }
+
+ 
+
+ .first-header{
+     margin-bottom: 0;
+     width: 80%;
+ }
+
+ .second-header{
+    margin-top: 0;
+}
+
+.peragraph-width{
+    width: 60%;
+}
+
+.button{
+    background: #E02C6D;
+    color: white;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    border: none;
+}
+
+.fas{
+    padding-left: 5px;
+    color: white;
+}
+
+.camera-image{
+    margin-right: 165px;
+    transform: rotate(10deg);
+    transition-property: transform;
+    transition-duration: 5s;
+}
+
+
+.camera-image:hover{
+    transform: rotate(360deg);
+}
+.big-ring{
+    background-color: #F1E4FF;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    position: relative;
+}
+
+.small-ring{
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+}
+
+img[alt='Camera']{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+/*------------
+mobile devices
+-------------*/
+@media(max-width: 700px){
+    .first-header{
+        width: 30%;
+    }
+    .header-text{
+        font-size: 20px;
+    }
+
+    .peragraph-width{
+        width: 30%;
+    }
+
+    .first-part{
+       width: 100%;
+       background-color: paleturquoise;
+       margin-top: 10px;
+    }
+    
+    .camera-image{
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    .big-ring{
+        background-color: #F1E4FF;
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        position: relative;
+        margin-left: 50px;
+    }
+
+    .small-ring{
+        background-color: lightgray;
+        width: 90px;
+        height: 90px;
+        border-radius: 45px;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+      
+    }
+    img[alt='Camera']{
+        width: 90%;
+        position: relative;
+        z-index: 2;
+       
+    }
+
+    
+
+    .screen{
+        background: #FFFFFF;
+       
+        height: 3800px;
+        margin: 0 auto;
+      }
+}
+
+/*-------------------------
+devices bigger than mobile
+--------------------------*/
+
+@media(max-width: 1000px){
+    .first-header{
+        width: 30%;
+    }
+    .header-text{
+        font-size: 20px;
+    }
+
+    .peragraph-width{
+        width: 30%;
+    }
+
+    .first-part{
+       width: 100%;
+       background-color: paleturquoise;
+       margin-top: 10px;
+    }
+    
+    .camera-image{
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    .big-ring{
+        background-color: #F1E4FF;
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        position: relative;
+        margin-left: 50px;
+    }
+
+    .small-ring{
+        background-color: lightgray;
+        width: 90px;
+        height: 90px;
+        border-radius: 45px;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+      
+    }
+    img[alt='Camera']{
+        width: 90%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .screen{
+        background: #FFFFFF;
+       
+        height: 3800px;
+        margin: 0 auto;
+      }
+}
